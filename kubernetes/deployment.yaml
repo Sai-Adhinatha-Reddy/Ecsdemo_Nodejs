@@ -21,7 +21,7 @@ spec:
         app: ecsdemo-nodejs
     spec:
       containers:
-      - image: brentley/ecsdemo-nodejs:latest
+      - image: gsaiadhinathareddy/k8s_microservices:nodejs
         imagePullPolicy: Always
         name: ecsdemo-nodejs
         ports:
